@@ -1,0 +1,44 @@
+#include<iostream>
+#include<conio.h>
+#include<stdio.h>
+#include<math.h>
+Using namespace std;
+Int main()
+{
+Float pf,pfn,tm,tmn,mat,succ,success,fail,failure,et,pasr,losr,mr,fn,fi,pn;
+Float n=1000000;
+Cout<<”enter time for a page fault for empty page: \n “;
+Cin>>pf;
+Pfn=pf*n;
+Cout<<”enter the time for modified page:\n “;
+Cin>>tm;
+Tmn=tm*n;
+Cout<<”Kindly enter memory access time:\n “;
+Cin>>mat;
+Cout<<”reading updated page percentage: \n”;
+Cin>>succ;
+Success=succ/100;
+Fail=100-succ;
+Failure=fail/100;
+Cout<<”reading unupdated page percentage”:<<fail<<”%”;
+Cout<<”enter the effective time”;
+Cin>>et;
+losr=failure*pfn;
+
+pasr=success*pmn;
+
+mr=mat+pasr+losr;
+
+fn=mat-mr;
+
+fi=mat-et;
+
+pn=fi/fn;
+
+system(“cls”);
+cout<<”therefore pagefault related to above detail is: ”;
+
+cout<<”\n is:”<<pn<<”ns.\n “;
+
+return 0;
+}
