@@ -34,7 +34,6 @@ fn=mat-mr;
 fi=mat-et;
 
 pn=fi/fn;
-
 system(“cls”);
 cout<<”therefore pagefault related to above detail is: ”;
 
